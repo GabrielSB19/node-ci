@@ -25,7 +25,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: GabrielSB19/NodeCI:latest
+        tags: gabrielsb19/NodeCI:latest
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME}}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD}}
